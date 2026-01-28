@@ -6,8 +6,6 @@ public class Main
         BinNode<Integer> n8 = new BinNode<>(8);
         BinNode<Integer> n4 = new BinNode<>(n2, 4, n5);
         BinNode<Integer> root = new BinNode<>(n4, 10, n8);
-
-        SabaGadol(root);
 	}
 	public static boolean isEvenWithoutOddChild(BinNode<Integer> node) {
     if (node == null) return false;
